@@ -25,7 +25,7 @@ namespace ClosePrompt
     /// IVsPackage interface and uses the registration attributes defined in the framework to
     /// register itself and its components with the shell. These attributes tell the pkgdef creation
     /// utility what data to put into .pkgdef file.
-    /// </para>
+    /// </para  >
     /// <para>
     /// To get loaded into VS, the package must be referred by &lt;Asset Type="Microsoft.VisualStudio.VsPackage" ...&gt; in .vsixmanifest file.
     /// </para>
