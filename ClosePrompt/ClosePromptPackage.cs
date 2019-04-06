@@ -9,7 +9,7 @@ namespace ClosePrompt
     [InstalledProductRegistration("Close Prompt", "Shows confirmation prompt message to confirm exit", "ClosePrompt.14CE444A-AE6B-446C-93F4-91733D57E939")]
     [Guid(PackageGuidString)]
     [ProvideAutoLoad(UIContextGuids80.NoSolution, PackageAutoLoadFlags.BackgroundLoad)]
-    public sealed class ClosePromptPackage : Package
+    public sealed class ClosePromptPackage : AsyncPackage
     {
         public const string PackageGuidString = "b79e2775-1c62-459d-b623-31b93818fe8d";
 
