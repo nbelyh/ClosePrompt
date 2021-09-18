@@ -3,9 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31710.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClosePrompt", "ClosePrompt\ClosePrompt.csproj", "{D1AF62FD-5967-460E-B3AF-26D6D7E97ADB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClosePrompt.x64", "ClosePrompt.x64\ClosePrompt.x64.csproj", "{D1AF62FD-5967-460E-B3AF-26D6D7E97ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClosePrompt.x86", "ClosePrompt.x86\ClosePrompt.x86.csproj", "{0BA3D1A1-171F-475F-B8B4-D4C130BF6794}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ClosePrompt.Core", "ClosePrompt.Core\ClosePrompt.Core.shproj", "{9251B6A0-9CC2-4C88-825F-70CC7B6D94DA}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ClosePrompt.Core\ClosePrompt.Core.projitems*{0ba3d1a1-171f-475f-b8b4-d4c130bf6794}*SharedItemsImports = 4
+		ClosePrompt.Core\ClosePrompt.Core.projitems*{9251b6a0-9cc2-4c88-825f-70cc7b6d94da}*SharedItemsImports = 13
+		ClosePrompt.Core\ClosePrompt.Core.projitems*{d1af62fd-5967-460e-b3af-26d6d7e97adb}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
@@ -21,6 +30,14 @@ Global
 		{D1AF62FD-5967-460E-B3AF-26D6D7E97ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D1AF62FD-5967-460E-B3AF-26D6D7E97ADB}.Release|x86.ActiveCfg = Release|x86
 		{D1AF62FD-5967-460E-B3AF-26D6D7E97ADB}.Release|x86.Build.0 = Release|x86
+		{0BA3D1A1-171F-475F-B8B4-D4C130BF6794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA3D1A1-171F-475F-B8B4-D4C130BF6794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA3D1A1-171F-475F-B8B4-D4C130BF6794}.Debug|x86.ActiveCfg = Debug|x86
+		{0BA3D1A1-171F-475F-B8B4-D4C130BF6794}.Debug|x86.Build.0 = Debug|x86
+		{0BA3D1A1-171F-475F-B8B4-D4C130BF6794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA3D1A1-171F-475F-B8B4-D4C130BF6794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA3D1A1-171F-475F-B8B4-D4C130BF6794}.Release|x86.ActiveCfg = Release|x86
+		{0BA3D1A1-171F-475F-B8B4-D4C130BF6794}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
