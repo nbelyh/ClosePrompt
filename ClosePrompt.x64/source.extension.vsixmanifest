@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="ClosePrompt.14CE444A-AE6B-446C-93F4-91733D57E939" Version="1.3" Language="en-US" Publisher="Shoaib Shakeel"/>
-        <DisplayName>ClosePrompt</DisplayName>
+        <Identity Id="ClosePrompt.3740AA6A-2848-433B-B303-0B720F0D2657" Version="1.3" Language="en-US" Publisher="Shoaib Shakeel"/>
+        <DisplayName>Close Prompt</DisplayName>
         <Description xml:space="preserve">Show simple prompt on closing Visual Studio to confirm exit</Description>
         <License>License.txt</License>
         <Icon>Resources\ClosePromptPackage.ico</Icon>
